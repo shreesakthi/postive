@@ -1,14 +1,20 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
-int n,N,k,i;
+int n[20],N,k,i,sum=0;
 printf("enter the 2 numbers");
 scanf("%d %d",&N,&k);
 printf("enter the no. of elements");
 scanf("%d",&n);
-printf("enter the elements:);
-for(i=1;i<=n;i++)
+for(i=0;i<=n;i++)
 {
-scanf("%d",&n[i]);
+	printf("enter the elements:");
+	scanf("%d",&n[i]);
 }
+for(i=0;i<=k;i++)
+       {
+         sum+=i;
+       }
+       printf("the sum is %d",sum);
+       return 0;
+       }
