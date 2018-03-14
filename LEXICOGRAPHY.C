@@ -4,9 +4,9 @@
 int main()
 {
     int i, j;
-    char str[10][50], temp[50];
+    char str[20][50], temp[50];
 
-    printf("Enter 10 words:\n");
+    printf("Enter the words:\n");
 
     for(i=0; i<10; ++i)
         scanf("%s[^\n]",str[i]);
